@@ -1,1 +1,50 @@
-/*# sourceMappingURL=styles.css.map */
+* {
+  box-sizing: border-box;
+  border: 0.5px solid rebeccapurple;
+}
+
+html {
+  font-size: 100%;
+}
+
+main.main-feed-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  padding: 2%;
+}
+
+header.searchvar-container, div.stories-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.stories-container div.story {
+  display: flex;
+  flex-direction: column;
+}
+
+div.user-name-locat {
+  display: flex;
+}
+
+div.feed-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.post-feed-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.post-feed-container header.header-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-feed-container div.option-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */
