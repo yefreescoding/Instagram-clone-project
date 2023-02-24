@@ -20,11 +20,10 @@ This is a project I decided to make in order to fully acquire te html and css sk
 
 ## Overview
 
-### The challenge
+### I challenge myself to:
 
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
+- Create a web page using everything I learned using HTML, CSS and Mobile-First Workflow.
+- It has to look nice in a pc screen as well smartphone screen.
 
 ### Screenshot
 
