@@ -1,17 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
 * {
   box-sizing: border-box;
-  border: 0.5px solid rebeccapurple;
+  /*border: 0.5px solid rebeccapurple;*/
 }
 
 html {
   font-size: 100%;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
+/*Styles for the general FEED container*/
 main.main-feed-container {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
-  padding: 2%;
+  padding: 1.3% 2%;
+  background-color: rgb(240, 240, 240);
+  border-radius: 40px;
 }
 
 header.searchvar-container, div.stories-container {
@@ -20,6 +25,70 @@ header.searchvar-container, div.stories-container {
   align-items: center;
 }
 
+/*Styles for the navegation var section*/
+header.searchvar-container .search-input {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+header.searchvar-container .search-input input {
+  width: 55%;
+  padding: 10px 10px;
+  font-size: 1em;
+  color: #111;
+  font-size: 0.8em;
+  border-radius: 20px;
+  border: none;
+}
+header.searchvar-container .search-input button {
+  margin-left: -37px;
+  border-radius: 15px;
+  z-index: 2;
+  width: 30px;
+  background-color: white;
+  color: grey;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*margin-right: -10px;*/
+}
+header.searchvar-container .search-input button img {
+  width: 100%;
+  border-radius: 15px;
+  opacity: 0.4;
+}
+header.searchvar-container .nav-not-mss-post {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header.searchvar-container .nav-not-mss-post img {
+  width: 1.8em;
+  padding: 0;
+  margin: 0 0.8em;
+  cursor: pointer;
+}
+header.searchvar-container .nav-not-mss-post img.klk-logo {
+  width: 2em;
+}
+header.searchvar-container .nav-not-mss-post button {
+  margin-left: 0.8em;
+  padding: 10px 18px;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 3px 16px rgba(179, 94, 52, 0.8156862745);
+  background-image: linear-gradient(to right, #E1306C, #FD1D1D, #F77737, #FCAF45);
+}
+
+/*Styles for the stories section*/
 div.stories-container div.story {
   display: flex;
   flex-direction: column;
@@ -29,9 +98,13 @@ div.user-name-locat {
   display: flex;
 }
 
+/*styles for the FEED CONTAINER*/
 div.feed-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 0.8em;
+       column-gap: 0.8em;
+  row-gap: 0.8em;
 }
 
 .post-feed-container {
