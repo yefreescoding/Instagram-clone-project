@@ -36,19 +36,34 @@ header.searchvar-container, div.stories-container {
 /*Styles for the navegation var section*/
 header.searchvar-container .search-input {
   flex: 1;
-  width: 100%;
+  max-width: 30em;
   display: flex;
   align-items: center;
   position: relative;
 }
 header.searchvar-container .search-input input {
-  width: 55%;
-  padding: 10px 10px;
-  font-size: 1em;
-  color: #111;
-  font-size: 0.8em;
+  flex: 1;
+  padding: 10px 30px;
   border-radius: 20px;
+  font-size: 1em;
   border: none;
+  box-shadow: inset 2px 2px 8px rgba(152, 152, 152, 0.276);
+}
+header.searchvar-container .search-input input:focus {
+  outline: none;
+  background-color: #fff1ea;
+}
+header.searchvar-container .search-input input::-moz-placeholder {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  color: grey;
+}
+header.searchvar-container .search-input input::placeholder {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  color: grey;
 }
 header.searchvar-container .search-input button {
   margin-left: -37px;
@@ -70,7 +85,7 @@ header.searchvar-container .search-input button img {
   opacity: 0.4;
 }
 header.searchvar-container .nav-not-mss-post {
-  flex: 1;
+  width: 20em;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -101,10 +116,6 @@ header.searchvar-container .nav-not-mss-post button {
 div.stories-container div.story {
   display: flex;
   flex-direction: column;
-}
-
-div.user-name-locat {
-  display: flex;
 }
 
 /*styles for the FEED CONTAINER*/
@@ -141,12 +152,15 @@ div.feed-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  flex-shrink: 0;
 }
 .post-feed-container header.header-post .user-name-locat .img-user {
   width: 25%;
+  flex-shrink: 0;
 }
 .post-feed-container header.header-post .user-name-locat .img-user img {
   width: 100%;
+  min-width: 100%;
   border-radius: 50px;
 }
 .post-feed-container header.header-post .user-name-locat .info-user p {

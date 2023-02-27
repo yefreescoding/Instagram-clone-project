@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
-$fontpageReg: "'Nanum Gothic', sans-serif";
+$fontpageReg: 'Nanum Gothic', sans-serif;
 * {
   box-sizing: border-box;
   /*border: 0.5px solid rebeccapurple;*/
@@ -40,19 +40,30 @@ header.searchvar-container, div.stories-container {
 header.searchvar-container {
   .search-input {
     flex: 1;
-    width: 100%;
+    max-width: 30em;
     display: flex;
     align-items: center;
     position: relative;
     input{
-      width: 55%;
-      padding: 10px 10px;
-      font-size: 1em;
-      color: #111;
-      font-size: 0.8em;
+      flex: 1;
+      padding: 10px 30px;
       border-radius: 20px;
+      font-size: 1em;
       border: none;
+      box-shadow: inset 2px 2px 8px rgba(152, 152, 152, 0.276);
     }
+    input:focus {
+      outline: none;
+      background-color: #fff1ea;
+    }
+
+    input::placeholder {
+      font-family: $fontpageReg;
+      font-weight: bold;
+      font-size: 1em;
+      color: grey;
+    }
+
     button {
       margin-left: -37px;
       border-radius: 15px;
@@ -74,7 +85,7 @@ header.searchvar-container {
     } 
   }
   .nav-not-mss-post {
-    flex: 1;
+    width: 20em;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -112,11 +123,10 @@ div.stories-container {
   }
 }
 
-div.user-name-locat {
-  display: flex;
-}
+
 
 /*styles for the FEED CONTAINER*/
+
 div.feed-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -147,10 +157,13 @@ div.feed-container {
       display: flex;
       justify-content: flex-start;
       align-items: center;
+      flex-shrink: 0;
       .img-user {
         width: 25%;
+        flex-shrink: 0;
         img {
           width: 100%;
+          min-width: 100%;
           border-radius: 50px;
         }
       }
