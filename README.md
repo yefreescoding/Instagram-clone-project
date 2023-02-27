@@ -27,11 +27,13 @@ This is a project I decided to make in order to fully acquire te html and css sk
 
 ### Screenshot
 
+- First screenshot of the web page.
 ![](Public/Screenshot%202023-02-24%20at%2012-04-14%20Screenshot.png)
 
-This is a screenshot of the current project.
+- Second screenshot of the web page.
+![](Public/screenshots/Screenshot%202023-02-27%20at%2015-01-32%20Instagram%20clone%20HTML%20CSS%20Project.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+This is a screenshot of the current project.
 
 ### Links
 
@@ -39,6 +41,10 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 - Live Site URL: ()
 
 ## My process
+
+My process started with me looking for the design I wanted to replicate. So i went to one of my favorites pages t search for some inspiration and I found a couple of great concept design for it.
+
+Then I started coding the HTML file. Organizing the content and separating the sections.
 
 ### Built with
 
@@ -56,7 +62,7 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+----
 
 To see how you can add code snippets, see below:
 
