@@ -7,7 +7,7 @@
 body {
   margin: 0;
   display: grid;
-  grid-template-columns: 20em 1fr;
+  /*grid-template-columns: 20em 1fr;*/
 }
 
 html {
@@ -15,12 +15,25 @@ html {
   font-family: "Nanum Gothic", sans-serif;
 }
 
+/*Styles for the navigation bar, MAIN PAGE*/
+header.profile-links-container {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 75%;
+  border-right: solid 1px rgba(186, 186, 186, 0.678);
+  border-top-right-radius: 3em;
+}
+
 /*Styles for the general FEED container*/
 main.main-feed-container {
+  margin-left: 25%;
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
-  padding: 1.3% 2%;
+  padding: 0.5% 2%;
   background-color: rgb(240, 240, 240);
   border-radius: 40px;
 }
@@ -153,13 +166,13 @@ div.stories-container div.story img {
 /*styles for the FEED CONTAINER*/
 div.feed-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  -moz-column-gap: 0.5em;
-       column-gap: 0.5em;
-  row-gap: 0.5em;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 1em;
+       column-gap: 1em;
+  row-gap: 1.5em;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 768px) {
   div.feed-container {
     grid-template-columns: 1fr;
   }
