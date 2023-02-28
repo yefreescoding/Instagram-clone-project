@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 * {
   box-sizing: border-box;
   /*border: 0.5px solid rebeccapurple;*/
@@ -25,6 +26,68 @@ header.profile-links-container {
   right: 75%;
   border-right: solid 1px rgba(186, 186, 186, 0.678);
   border-top-right-radius: 3em;
+}
+header.profile-links-container div.instagram-logo {
+  padding: 5%;
+}
+header.profile-links-container div.instagram-logo span {
+  font-family: "Lobster", cursive;
+  font-size: 1.7em;
+}
+header.profile-links-container div.foto-userDiv {
+  margin: 2em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header.profile-links-container div.foto-userDiv div.img-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  background-image: linear-gradient(to left, #405DE6, #833AB4, #E1306C, #F77737);
+  margin-bottom: 1em;
+}
+header.profile-links-container div.foto-userDiv img {
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+}
+header.profile-links-container div.foto-userDiv p {
+  margin: 0.1em 0;
+}
+header.profile-links-container div.foto-userDiv p.nameUser {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+header.profile-links-container div.foto-userDiv p.locatUser {
+  font-weight: bold;
+  color: grey;
+}
+header.profile-links-container div.user-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header.profile-links-container div.user-stats .stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 1em;
+  margin-left: 30px;
+}
+header.profile-links-container div.user-stats .stats span {
+  font-weight: bold;
+  color: grey;
+}
+header.profile-links-container div.user-stats .stats .imp {
+  color: #202020;
 }
 
 /*Styles for the general FEED container*/
@@ -179,7 +242,6 @@ div.feed-container {
 }
 .post-feed-container {
   display: grid;
-  grid-template-columns: 1fr;
   background-color: white;
   padding: 2%;
   border-radius: 20px;
@@ -198,15 +260,16 @@ div.feed-container {
   justify-content: flex-start;
   align-items: center;
   flex-shrink: 0;
+  margin-bottom: 0.5em;
 }
 .post-feed-container header.header-post .user-name-locat .img-user {
-  width: 25%;
-  flex-shrink: 0;
+  width: 2.8em;
+  height: 2.8em;
 }
 .post-feed-container header.header-post .user-name-locat .img-user img {
   width: 100%;
-  min-width: 100%;
-  border-radius: 50px;
+  height: 100%;
+  border-radius: 50%;
 }
 .post-feed-container header.header-post .user-name-locat .info-user p {
   margin: 0.2em;
@@ -253,14 +316,14 @@ div.feed-container {
   width: 100%;
 }
 .post-feed-container .likes-info, .post-feed-container .post-quote {
-  padding: 0 1em;
-  margin-top: 0.5em;
+  padding: 0 16px;
+  margin-top: 8px;
 }
 .post-feed-container .likes-info p, .post-feed-container .post-quote p {
   margin: 0;
 }
 .post-feed-container .likes-info p {
-  font-size: 1em;
+  font-size: 16px;
 }
 .post-feed-container .likes-info p .name-liked {
   font-weight: bold;
