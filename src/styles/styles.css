@@ -113,9 +113,39 @@ header.searchvar-container .nav-not-mss-post button {
 
 /**/
 /*Styles for the stories section*/
+div.stories-container {
+  justify-content: flex-start;
+  gap: 2em;
+}
 div.stories-container div.story {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
   flex-direction: column;
+}
+div.stories-container div.story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  width: 8em;
+  border: none;
+}
+div.stories-container div.story .img-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  border: none;
+  background-image: linear-gradient(to left, #405DE6, #833AB4, #E1306C, #F77737);
+}
+div.stories-container div.story img {
+  width: 96%;
+  height: auto;
+  border-radius: 50%;
+  border: none;
 }
 
 /*styles for the FEED CONTAINER*/
