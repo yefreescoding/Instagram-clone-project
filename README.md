@@ -28,16 +28,18 @@ This is a project I decided to make in order to fully acquire te html and css sk
 ### Screenshot
 
 - First screenshot of the web page.
-![](Public/Screenshot%202023-02-24%20at%2012-04-14%20Screenshot.png)
+![](Public/screenshots/Screenshot%202023-02-24%20at%2012-04-14%20Screenshot.png)
 
 - Second screenshot of the web page.
 ![](Public/screenshots/Screenshot%202023-02-27%20at%2015-01-32%20Instagram%20clone%20HTML%20CSS%20Project.png)
 
+- Third screenshot of the web page.
+![](Public/screenshots/Screenshot%202023-02-28%20at%2013-02-38%20Instagram%20clone%20HTML%20CSS%20Project.png)
 This is a screenshot of the current project.
 
 ### Links
 
-- Solution URL: ()
+- Solution URL: (https://github.com/yefreescoding/Instagram-clone-project.git)
 - Live Site URL: ()
 
 ## My process
@@ -45,6 +47,8 @@ This is a screenshot of the current project.
 My process started with me looking for the design I wanted to replicate. So i went to one of my favorites pages t search for some inspiration and I found a couple of great concept design for it.
 
 Then I started coding the HTML file. Organizing the content and separating the sections.
+
+After added the respective classes for the elements I started positioning the elements on the web page
 
 ### Built with
 
@@ -63,6 +67,7 @@ Then I started coding the HTML file. Organizing the content and separating the s
 ### What I learned
 
 ----
+The top things i've learned so far that had helped me the most are position fixed and position relative. How to place the correct way the elements on the page and write clean and understandable code.
 
 To see how you can add code snippets, see below:
 
@@ -82,13 +87,11 @@ const proudOfThisFunc = () => {
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
@@ -99,11 +102,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Yefree De Los Santos](https://github.com/yefreescoding)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
